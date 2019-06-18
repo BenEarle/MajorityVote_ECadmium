@@ -24,9 +24,9 @@
 #include <cadmium/io/iestream.hpp>
 
 
-#include <cadmium/embedded/fusion/majorityVote.hpp>
-#include <cadmium/embedded/io/digitalInput.hpp>
-#include <cadmium/embedded/io/digitalOutput.hpp>
+#include <cadmium/real_time/arm_mbed/fusion/majorityVote.hpp>
+#include <cadmium/real_time/arm_mbed/io/digitalInput.hpp>
+#include <cadmium/real_time/arm_mbed/io/digitalOutput.hpp>
 
 #ifdef ECADMIUM
   #include "../mbed.h"
